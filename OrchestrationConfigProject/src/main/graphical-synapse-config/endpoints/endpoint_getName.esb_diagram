@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_b5a48JSaEeOuMea5jpUWjw" type="Esb" name="endpoint_getName.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_cSC0UJSaEeOuMea5jpUWjw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cSC0VZSaEeOuMea5jpUWjw" type="7001"/>
+    <children xmi:type="notation:Shape" xmi:id="_-cLbAJSdEeOuMea5jpUWjw" type="3642" fontName="Segoe UI">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-cLbApSdEeOuMea5jpUWjw" type="7041">
+        <children xmi:type="notation:Node" xmi:id="_-cXoQJSdEeOuMea5jpUWjw" type="3712">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_-cXoQZSdEeOuMea5jpUWjw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-cXoQpSdEeOuMea5jpUWjw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_-cXoQ5SdEeOuMea5jpUWjw"/>
+          <element xmi:type="esb:HTTPEndpoint" href="endpoint_getName.esb#//@server/@children.0/@child"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-cXoRJSdEeOuMea5jpUWjw" width="75" height="75"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-cLbA5SdEeOuMea5jpUWjw" showTitle="true"/>
+      </children>
+      <element xmi:type="esb:EndpointDiagram" href="endpoint_getName.esb#//@server/@children.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-cLbAZSdEeOuMea5jpUWjw" width="118" height="100"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_cSC0UZSaEeOuMea5jpUWjw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_cSC0UpSaEeOuMea5jpUWjw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_cSC0U5SaEeOuMea5jpUWjw"/>
+    <element xmi:type="esb:EsbServer" href="endpoint_getName.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cSC0VJSaEeOuMea5jpUWjw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_b5a48ZSaEeOuMea5jpUWjw"/>
+  <element xmi:type="esb:EsbDiagram" href="endpoint_getName.esb#/"/>
+</notation:Diagram>

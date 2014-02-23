@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_HWXi8Jh8EeOuMea5jpUWjw" type="Esb" name="endpoint_EP3.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_HYd0sZh8EeOuMea5jpUWjw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HYd0tph8EeOuMea5jpUWjw" type="7001"/>
+    <children xmi:type="notation:Shape" xmi:id="_Hf55cJh8EeOuMea5jpUWjw" type="3642" fontName="Segoe UI">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Hf55cph8EeOuMea5jpUWjw" type="7041">
+        <children xmi:type="notation:Node" xmi:id="_HgAAEJh8EeOuMea5jpUWjw" type="3712">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_HgAAEZh8EeOuMea5jpUWjw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HgAAEph8EeOuMea5jpUWjw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_HgAAE5h8EeOuMea5jpUWjw"/>
+          <element xmi:type="esb:HTTPEndpoint" href="endpoint_EP3.esb#//@server/@children.0/@child"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HgAAFJh8EeOuMea5jpUWjw" width="75" height="75"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Hf55c5h8EeOuMea5jpUWjw" showTitle="true"/>
+      </children>
+      <element xmi:type="esb:EndpointDiagram" href="endpoint_EP3.esb#//@server/@children.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hf55cZh8EeOuMea5jpUWjw" width="118" height="100"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_HYd0sph8EeOuMea5jpUWjw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HYd0s5h8EeOuMea5jpUWjw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_HYd0tJh8EeOuMea5jpUWjw"/>
+    <element xmi:type="esb:EsbServer" href="endpoint_EP3.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HYd0tZh8EeOuMea5jpUWjw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_HWXi8Zh8EeOuMea5jpUWjw"/>
+  <element xmi:type="esb:EsbDiagram" href="endpoint_EP3.esb#/"/>
+</notation:Diagram>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="getName" groupId="com.example.OrchestrationConfigProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getName.xml</file>
+    </artifact>
+    <artifact name="getCarNumber" groupId="com.example.OrchestrationConfigProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getCarNumber.xml</file>
+    </artifact>
+    <artifact name="getCarDetails" groupId="com.example.OrchestrationConfigProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getCarDetails.xml</file>
+    </artifact>
+    <artifact name="car_number" groupId="com.example.OrchestrationConfigProject.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/car_number.xml</file>
+    </artifact>
+    <artifact name="car_details" groupId="com.example.OrchestrationConfigProject.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/car_details.xml</file>
+    </artifact>
+    <artifact name="OrchestrationTest" groupId="com.example.OrchestrationConfigProject.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/OrchestrationTest.xml</file>
+    </artifact>
+    <artifact name="OrchestrationAPI" groupId="com.example.OrchestrationConfigProject.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/OrchestrationAPI.xml</file>
+    </artifact>
+    <artifact name="EP1" groupId="com.example.OrchestrationConfigProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/EP1.xml</file>
+    </artifact>
+    <artifact name="EP2" groupId="com.example.OrchestrationConfigProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/EP2.xml</file>
+    </artifact>
+    <artifact name="EP3" groupId="com.example.OrchestrationConfigProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/EP3.xml</file>
+    </artifact>
+</artifacts>

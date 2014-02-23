@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse" name="OrchestrationAPI" context="/hello">
+    <resource methods="GET" uri-template="/name/{no}">
+        <inSequence>
+            <call>
+                <endpoint key="EP1"/>
+            </call>
+            <property name="RESPONSE1" expression="json-eval($.foreName)" scope="default" type="STRING"/>
+            <log level="custom">
+                <property name="LOG_RESPONSE1" expression="get-property('RESPONSE1')"/>
+            </log>
+            <property name="uri.var.name" expression="get-property('RESPONSE1')" scope="default" type="STRING"/>
+            <call>
+                <endpoint key="EP2"/>
+            </call>
+            <log level="full"/>
+            <property name="RESPONSE2" expression="json-eval($.carNos[1])" scope="default" type="STRING"/>
+            <log level="custom">
+                <property name="LOG_RESPONSE2" expression="get-property('RESPONSE2')"/>
+            </log>
+            <property name="uri.var.number" expression="get-property('RESPONSE2')" scope="default" type="STRING"/>
+            <log level="custom">
+                <property name="no" expression="get-property('uri.var.no')"/>
+                <property name="name" expression="get-property('uri.var.name')"/>
+                <property name="number" expression="get-property('uri.var.number')"/>
+            </log>
+            <call>
+                <endpoint key="EP3"/>
+            </call>
+            <log level="custom">
+                <property name="RESPONSE3" expression="json-eval($)"/>
+            </log>
+            <property name="messageType" value="application/json" scope="axis2" type="STRING"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

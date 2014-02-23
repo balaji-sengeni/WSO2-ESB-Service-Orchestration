@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="car_number" onError="main">
+    <property name="user_name" expression="json-eval($.)" scope="default" type="STRING"/>
+    <log>
+        <property name="epr" expression="json-eval($.)"/>
+    </log>
+    <send receive="car_details">
+        <endpoint key="getCarNumber"/>
+    </send>
+</sequence>
